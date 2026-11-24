@@ -60,7 +60,7 @@ def parse_args():
         ),
     )
     parser.add_argument(
-        "--fade-percent", type=float, default=15.0,
+        "--fade-percent", type=float, default=5.0,
         help=(
             "Used in 'fade' mode. How much of the image, as a percentage "
             "(0-50) of its shorter side, is used as the fade zone near each "
@@ -68,7 +68,7 @@ def parse_args():
         ),
     )
     parser.add_argument(
-        "--mirror-percent", type=float, default=12.0,
+        "--mirror-percent", type=float, default=5.0,
         help=(
             "Used in 'mirror-fade' mode. Percentage (0-50) of the image's "
             "shorter side that gets mirror-extended outward before the fade "
